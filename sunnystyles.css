@@ -26,7 +26,7 @@ body, .footer-heading{
 }
 
 #head-section{
-  background-image: url(../images/desktop/image-header.jpg);
+  background-image: url(images/desktop/image-header.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -107,14 +107,14 @@ p{
 }
 
 .transform-empty{
-  background-image: url(../images/desktop/image-transform.jpg);
+  background-image: url(images/desktop/image-transform.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .standOut-empty{
-  background-image: url(../images/desktop/image-stand-out.jpg);
+  background-image: url(images/desktop/image-stand-out.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -127,7 +127,7 @@ p{
 }
 
 .graphic-section{
-  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-image: url(images/desktop/image-graphic-design.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -135,7 +135,7 @@ p{
 }
 
 .photography-section{
-  background-image: url(../images/desktop/image-photography.jpg);
+  background-image: url(images/desktop/image-photography.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
