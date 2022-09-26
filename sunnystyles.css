@@ -21,7 +21,7 @@ body, .footer-heading{
 }
 
 #head-section{
-  background-image: url(../images/desktop/image-header.jpg);
+  background-image: url(images/desktop/image-header.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -103,14 +103,14 @@ p, span{
 }
 
 .transform-empty{
-  background-image: url(../images/desktop/image-transform.jpg);
+  background-image: url(images/desktop/image-transform.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .standOut-empty{
-  background-image: url(../images/desktop/image-stand-out.jpg);
+  background-image: url(images/desktop/image-stand-out.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -123,7 +123,7 @@ p, span{
 }
 
 .graphic-section{
-  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-image: url(images/desktop/image-graphic-design.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -131,7 +131,7 @@ p, span{
 }
 
 .photography-section{
-  background-image: url(../images/desktop/image-photography.jpg);
+  background-image: url(images/desktop/image-photography.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -263,7 +263,7 @@ h1{
 
 @media (max-width: 425px) {
   #head-section{
-    background-image: url(../images/mobile/image-header.jpg);
+    background-image: url(images/mobile/image-header.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
