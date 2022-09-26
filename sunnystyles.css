@@ -1,0 +1,324 @@
+body, .footer-heading{
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #3ebfff;
+}
+
+.nav-section, .heading-section{
+  color: white;
+}
+
+.nav-item, .navbar-brand{
+  padding: 0 15px;
+}
+
+.nav-item{
+ font-weight: 600;
+}
+
+#head-section{
+  background-image: url(../images/desktop/image-header.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.heading-section, .arrow-icon, .transform-section, .standOut-section, .testimonial, .testimonies, #footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-section{
+  padding: 15% 0 5%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.arrow-icon{
+  padding-bottom: 21%;
+}
+
+.heading-section, .btn, .transform-heading, .transform-anchor, .graphic-heading, .testimonial-heading, .testimonial-name{
+  font-family: 'Fraunces', serif;
+}
+
+h1{
+  text-align: center;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.btn{
+  background: white;
+  color: hsl(212, 27%, 19%);
+}
+/***************************** transform section ******************************/
+.transform-display, .img-display{
+  display: none;
+}
+
+.transform-section, .standOut-section{
+  padding: 10.5%;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: hsl(212, 27%, 19%);
+}
+
+p, span{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.transform-heading, .transform-para, .transform-anchor{
+  margin: 2rem 0;
+}
+
+.transform-para, .testimonial-para{
+  color: hsl(213, 9%, 39%);
+}
+
+.transform-anchor{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: hsl(212, 27%, 19%);
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.transform-learn{
+  text-decoration-color: hsl(51, 100%, 49%);
+}
+
+.standOut-learn{
+  text-decoration-color: hsl(7, 99%, 70%);
+}
+
+.transform-empty{
+  background-image: url(../images/desktop/image-transform.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.standOut-empty{
+  background-image: url(../images/desktop/image-stand-out.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/*********************************** graphic section ********************************/
+.graphic-section, .photography-section{
+  padding: 25% 0 3%;
+  text-align: center;
+}
+
+.graphic-section{
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: hsl(167, 40%, 24%);
+}
+
+.photography-section{
+  background-image: url(../images/desktop/image-photography.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: hsl(198, 62%, 26%);
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.graphic-text-div{
+  padding: 0 25%;
+}
+
+.graphic-heading, .graphic-para{
+  margin: 2rem 0;
+}
+
+/***************************** testimonial section ****************************/
+.testimonial-heading{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 3rem;
+}
+
+.testimonial{
+  padding: 3%;
+  text-align: center;
+}
+
+.testimonial-img{
+  width: 23%;
+  border-radius: 50%;
+}
+
+.testimonial-img, .testimonial-para{
+  margin: 2rem 0;
+}
+
+.testimonial-heading{
+  color: hsl(232, 10%, 55%);
+}
+
+.testimonial-name{
+  font-weight: 700;
+  margin-top: 2rem;
+  color: hsl(212, 27%, 19%);
+}
+
+.testimonial-job{
+  color: hsl(210, 4%, 67%);
+}
+
+.testimonies{
+  margin: 0;
+  padding: 0 5%;
+}
+
+.milk, .orange, .cone, .sugarcubes{
+  width: 100%;
+}
+
+body, .image-div{
+  margin: 0;
+  padding: 0;
+}
+
+/************************* footer ****************************/
+#footer{
+  background-color: hsl(168, 34%, 41%);
+  color: rgba(44,115,101,255);
+}
+
+span{
+  margin: 0 2rem;
+}
+
+.icon{
+  margin: 0 1rem;
+}
+
+.footer-heading, .icons{
+  margin: 4rem 0;
+}
+
+/************************ active states ****************************/
+.transform-anchor:hover{
+  color: inherit;
+}
+
+.btn-primary-override:hover,
+.btn-primary-override:active,
+.btn-primary-override:focus,
+.btn-primary-override:visited{
+    background-color: #70cffb !important;
+    border-color: #70cffb !important;
+    background-image: none !important;
+    border: 0 !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+span:hover{
+  color: hsl(0, 0%, 100%);
+  cursor: pointer
+}
+
+#footer svg:hover path {
+    fill: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+/************************ media query  ******************************/
+@media (max-width: 768px) {
+.heading-section{
+  letter-spacing: 8px;
+  padding: 18% 0 5%;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.btn{
+  background-color: hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+}
+}
+
+@media (max-width: 425px) {
+  #head-section{
+    background-image: url(../images/mobile/image-header.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  h1{
+    font-size: 2.4rem;
+  }
+
+  .heading-section{
+    padding: 30% 0 5%;
+  }
+
+  .img-display{
+    display: block;
+    width: 100%;
+  }
+
+  .transform-display{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .transform-empty{
+    display: none;
+  }
+
+  .transform-section, .standOut-section{
+    text-align: center;
+  }
+
+  span{
+    margin: 0 1rem;
+  }
+
+  .icon{
+    margin: 0 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.8rem;
+  }
+
+  h3{
+    font-size: 1.6rem;
+  }
+
+  span{
+    margin: 0 0.5rem;
+  }
+}
