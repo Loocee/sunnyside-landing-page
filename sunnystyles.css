@@ -261,7 +261,7 @@ h1{
 }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   #head-section{
     background-image: url(images/mobile/image-header.jpg);
     background-position: center; /* Center the image */
