@@ -21,6 +21,10 @@ body, .footer-heading{
  font-weight: 600;
 }
 
+.hamburger-button{
+  border-style: none;
+}
+
 #head-section{
   background-image: url(images/desktop/image-header.jpg);
   background-position: center; /* Center the image */
