@@ -247,6 +247,17 @@ span:hover{
 
 /************************ media query  ******************************/
 @media (max-width: 768px) {
+  .menu{
+  background-color: white;
+  padding: 1rem 0;
+  margin: 1rem;
+}
+
+.nav-section{
+  color: black;
+  text-align: center;
+}
+  
 .heading-section{
   letter-spacing: 8px;
   padding: 18% 0 5%;
