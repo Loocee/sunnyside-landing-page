@@ -196,6 +196,10 @@ h3{
   padding: 0 5%;
 }
 
+.mobile-view{
+  display: none;
+}
+
 .milk, .orange, .cone, .sugarcubes{
   width: 100%;
 }
@@ -251,6 +255,14 @@ span:hover{
 
 /************************ media query  ******************************/
 @media (max-width: 768px) {
+  .mobile-view{
+  display: block;
+}
+  
+.desktop-view{
+  display: none;
+}
+
   .menu{
   background-color: white;
   padding: 1rem 0;
