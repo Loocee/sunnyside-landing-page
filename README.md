@@ -37,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/sunny-side-landing-page-bB6_1WIHJ3)
-- Live Site URL: [Add live site URL here](https://loocee.github.io/sunnyside-landing-page/)
+- Solution URL: [https://www.frontendmentor.io/solutions/sunny-side-landing-page-bB6_1WIHJ3](https://www.frontendmentor.io/solutions/sunny-side-landing-page-bB6_1WIHJ3)
+- Live Site URL: [https://loocee.github.io/sunnyside-landing-page/](https://loocee.github.io/sunnyside-landing-page/)
 
 ## My process
 
